@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="encDecKeys.MainPage">
+
+    <ScrollView>
+        <FlexLayout Direction="Row" JustifyContent="Center">
+            <VerticalStackLayout
+                Spacing="25"
+                Padding="30,0"
+                VerticalOptions="Center">
+                <Label x:Name="selInitFileLabel" HorizontalTextAlignment="Center" FontSize="40">Зашифровать</Label>
+                <Button x:Name="selInitFileBtn" Text="Выбрать файл..." FontSize="25"></Button>
+                <Button FontSize="25" x:Name="downloadEncrypted" IsVisible="false" BackgroundColor="DarkGreen" Text="Загрузить"></Button>
+            </VerticalStackLayout>
+            <VerticalStackLayout
+                Spacing="25"
+                Padding="30,0"
+                VerticalOptions="Center">
+                <Label x:Name="selDecrFileLabel" HorizontalTextAlignment="Center" FontSize="40">Расшифровать</Label>
+                <Button x:Name="selDecrFileBtn" Text="Выбрать файл..." FontSize="25"></Button>
+                <Button FontSize="25" IsVisible="false" BackgroundColor="DarkGreen" Text="Загрузить" x:Name="downloadDecrypted"></Button>
+            </VerticalStackLayout>
+            <VerticalStackLayout
+                Spacing="25"
+                Padding="30,0"
+                VerticalOptions="Center">
+                <Button x:Name="createOpenKey" Text="Создать открытый ключ" FontSize="25"></Button>
+                <Button IsEnabled="False" x:Name="selOpenKey" Text="Выбрать открытый ключ..." FontSize="25"></Button>
+                <Button x:Name="createPrivateKey" Text="Создать закрытый ключ" FontSize="25"></Button>
+                <Button IsEnabled="False" x:Name="selPrivateKey" Text="Выбрать закрытый ключ..." FontSize="25"></Button>
+            </VerticalStackLayout>
+        </FlexLayout>
+    </ScrollView>
+
+</ContentPage>
+

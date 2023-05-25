@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='utf-8' />
+<title>EncryptionPerformanceComparer.Benchmark-20230328-083532</title>
+
+<style type="text/css">
+	table { border-collapse: collapse; display: block; width: 100%; overflow: auto; }
+	td, th { padding: 6px 13px; border: 1px solid #ddd; text-align: right; }
+	tr { background-color: #fff; border-top: 1px solid #ccc; }
+	tr:nth-child(even) { background: #f8f8f8; }
+</style>
+</head>
+<body>
+<pre><code>
+BenchmarkDotNet=v0.13.5, OS=macOS Ventura 13.2.1 (22D68) [Darwin 22.3.0]
+Apple M1, 1 CPU, 8 logical and 8 physical cores
+.NET SDK=7.0.202
+  [Host]     : .NET 7.0.4 (7.0.423.11508), Arm64 RyuJIT AdvSIMD [AttachedDebugger]
+  DefaultJob : .NET 7.0.4 (7.0.423.11508), Arm64 RyuJIT AdvSIMD
+</code></pre>
+<pre><code></code></pre>
+
+<table>
+<thead><tr><th>       Method</th><th> Mean</th><th>Error</th><th>StdDev</th><th>Median</th><th>Rank</th>
+</tr>
+</thead><tbody><tr><td>DESencryptECB</td><td>365.34 &mu;s</td><td>1.519 &mu;s</td><td>1.347 &mu;s</td><td>364.74 &mu;s</td><td>3</td>
+</tr><tr><td>DESencryptCBC</td><td>462.79 &mu;s</td><td>1.843 &mu;s</td><td>1.724 &mu;s</td><td>462.68 &mu;s</td><td>4</td>
+</tr><tr><td>TripleDESencryptECB</td><td>1,081.58 &mu;s</td><td>8.151 &mu;s</td><td>7.226 &mu;s</td><td>1,081.28 &mu;s</td><td>6</td>
+</tr><tr><td>TripleDESencryptCBC</td><td>1,173.99 &mu;s</td><td>6.998 &mu;s</td><td>6.546 &mu;s</td><td>1,170.98 &mu;s</td><td>7</td>
+</tr><tr><td>RijndaelEncryptECB</td><td>27.01 &mu;s</td><td>0.071 &mu;s</td><td>0.060 &mu;s</td><td>27.01 &mu;s</td><td>1</td>
+</tr><tr><td>RijndaelEncryptCBC</td><td>45.11 &mu;s</td><td>0.060 &mu;s</td><td>0.054 &mu;s</td><td>45.10 &mu;s</td><td>2</td>
+</tr><tr><td>RC2encryptECB</td><td>478.36 &mu;s</td><td>9.480 &mu;s</td><td>24.302 &mu;s</td><td>464.14 &mu;s</td><td>4</td>
+</tr><tr><td>RC2encryptCBC</td><td>513.78 &mu;s</td><td>1.432 &mu;s</td><td>1.340 &mu;s</td><td>513.57 &mu;s</td><td>5</td>
+</tr></tbody></table>
+</body>
+</html>

@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="{07440115-AABF-494D-8906-B311902FE62B}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="encDecKeys/MainPage.xaml">
+    <Files>
+      <File FileName="encDecKeys/MainPage.xaml.cs" Line="114" Column="77" />
+      <File FileName="encDecKeys/MainPage.xaml" Line="17" Column="29" />
+      <File FileName="encDecKeys/MauiProgram.cs" />
+      <File FileName="../../.nuget/packages/communitytoolkit.maui/5.0.0/readme.txt" />
+      <File FileName="../../Library/Caches/VisualStudio/17.0/Symbols/raw.githubusercontent.com/CommunityToolkit/Maui/153dbf6e23ef08b9046b151dd61c874e5a32ede5/src/CommunityToolkit.Maui.Core/Essentials/FolderPicker/FolderPickerImplementation.macios.cs" />
+      <File FileName="../../Library/Caches/VisualStudio/17.0/Symbols/raw.githubusercontent.com/CommunityToolkit/Maui/153dbf6e23ef08b9046b151dd61c874e5a32ede5/src/CommunityToolkit.Maui.Core/Essentials/FolderPicker/FolderPickerImplementation.shared.cs" />
+      <File FileName="../../Library/Caches/VisualStudio/17.0/Symbols/raw.githubusercontent.com/CommunityToolkit/Maui/153dbf6e23ef08b9046b151dd61c874e5a32ede5/src/CommunityToolkit.Maui.Core/Essentials/FolderPicker/FolderPickerResult.shared.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="encDecKeys" expanded="True">
+            <Node name="encDecKeys" expanded="True">
+              <Node name="MainPage.xaml" expanded="True" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="MyAppleMacCatalystID" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <Debugger.DebugSourceFolders>
+    <String>/Users/anton/Library/Caches/VisualStudio/17.0/Symbols/raw.githubusercontent.com/CommunityToolkit/Maui/153dbf6e23ef08b9046b151dd61c874e5a32ede5</String>
+  </Debugger.DebugSourceFolders>
+  <MonoDevelop.Ide.ItemProperties.encDecKeys PreferredExecutionTarget="MyAppleMacCatalystID" />
+</Properties>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DigitalSignature.MainPage">
+
+    <ScrollView>
+        
+            <FlexLayout Direction="Row" JustifyContent="Center">
+            <VerticalStackLayout
+                Spacing="25"
+                Padding="30,0"
+                VerticalOptions="Center">
+                <Label HorizontalTextAlignment="Center" FontSize="40">Файл</Label>
+                <Button x:Name="uploadFileBtn" Text="Выбрать" FontSize="25"></Button>
+                <Label IsVisible="false" x:Name="digSigLabel" HorizontalTextAlignment="Center" FontSize="30">Цифровая подпись</Label>
+                <HorizontalStackLayout
+                    Spacing="25"
+                    Padding="30,0">
+                    <Button BackgroundColor="Orange" IsVisible="false" x:Name="uploadDigSigBtn" Text="Выбрать" FontSize="25"></Button>
+                    <Button BackgroundColor="ForestGreen" IsVisible="false" x:Name="downloadDigSigBtn" Text="Создать" FontSize="25"></Button>
+                </HorizontalStackLayout>
+            </VerticalStackLayout>
+        </FlexLayout>
+        
+    </ScrollView>
+
+</ContentPage>
+
